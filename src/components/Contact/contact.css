@@ -1,0 +1,133 @@
+.section {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+    box-sizing: border-box;
+  }
+
+
+#contactPage {
+    min-height: calc(100vh - 4rem);
+    width: 100vw;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.contactPageTitle {
+    font-size: 2.5rem; /* Adjusted font size for better readability */
+    margin-bottom: 1rem;
+}
+
+.clientDesc {
+    font-weight: 300;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.clientImgs {
+    margin: 1rem 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.clientImg {
+    object-fit: cover;
+    width: 22%; /* Adjusted width for better spacing */
+    max-width: 10rem;
+    margin: 0.5rem;
+    border-radius: 0.5rem; /* Added border radius for a rounded effect */
+}
+
+/* Contact Form Styles */
+#contact {
+    padding: 2rem;
+}
+
+.contactDesc {
+    padding: 1rem;
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+.contactForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90vw;
+    max-width: 60rem;
+    margin-top: 1rem;
+}
+
+.name, .email, .msg {
+    font-size: 1rem;
+    width: 100%;
+    max-width: 40rem;
+    margin: 0.5rem 0;
+    padding: 0.75rem 1rem;
+    border: 1px solid #ccc; /* Added border for better focus */
+    border-radius: 0.5rem;
+    background: #f5f5f5;
+    color: #333;
+}
+
+.submitBtn {
+    background: #007BFF; /* Updated button background color */
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    margin: 1rem 0;
+    padding: 0.75rem 2.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submitBtn:hover {
+    background: #0056b3; /* Updated hover color for the button */
+}
+
+/* Social Media Links Styles */
+.links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.link {
+    object-fit: cover;
+    height: 3rem;
+    width: 3rem;
+    margin: 0 0.75rem;
+    cursor: pointer; /* Added cursor style for links */
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+    .clientImg {
+        width: 45%; /* Adjust width for tablets */
+    }
+
+    .contactForm {
+        width: 100%;
+        max-width: 90%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .clientImg {
+        width: 100%; /* Adjust width for mobile devices */
+    }
+
+    .name, .email, .msg {
+        font-size: 0.9rem; /* Adjust font size for mobile devices */
+    }
+}

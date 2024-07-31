@@ -1,0 +1,129 @@
+/* General Styles for Intro Section */
+#intro {
+    height: calc(100vh - 4rem);
+    width: 100vw;
+    max-width: 75rem;
+    margin: 0 auto;
+    overflow: hidden;
+    display: flex;
+    align-items: center; 
+    position: relative; 
+    transition: background-color 0.5s ease, transform 0.5s ease;
+    /* Ensure this CSS does not override inline styles */
+}
+
+.introContent {
+    z-index: 1; 
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 2rem;
+    font-size: 3rem;
+    font-weight: 700;
+    max-width: 60%; 
+    position: relative; 
+    margin-right: auto;
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+
+.hello {
+    font-size: 1.75rem;
+    font-weight: 100;
+    display: flex;
+    align-items: left;
+}
+
+.introName {
+    color: aquamarine;
+}
+
+.introPara {
+    font-size: medium;
+    font-weight: 300;
+    letter-spacing: 1px;
+    margin: 1rem 0;
+    
+}
+
+/* Button Styling */
+.btn {
+    background-color: rgba(0, 0, 0, 1);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+
+  .btn:hover {
+    color: aquamarine;
+}
+  
+  .btnImg {
+    width: 5rem; /* Customize as needed */
+    height: 5rem; /* Customize as needed */
+    margin-right: 1rem;
+    border-radius: 0rem 2rem 0rem 2rem;
+  }
+  
+  .btnText {
+    font-size: 16px;
+  }
+
+.bg {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 40%; /* Adjust width as needed */
+    height: 100%;
+    object-fit: cover; /* Ensure the image covers the area */
+    z-index: 0; /* Ensure background image is below the content */
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 840px) {
+    #intro {
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    .introContent {
+        font-size: 10vw;
+        text-align: left;
+        margin-right: -4;
+    }
+
+    .hello {
+        font-size: 4.5vw;
+    }
+
+    .bg {
+        width: 60%; /* Adjust for smaller screens */
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .bg {
+        width: 80%; /* Adjust for mobile screens */
+    }
+}
+
+.light-btn{
+    margin-right: 5rem;
+    border-radius: 3rem 3rem 3rem 3rem;
+    height: 3rem;
+    width: 3rem;
+}
+.theme-toggle-btn{
+    border: 0px;
+    margin-left: 8rem;
+}

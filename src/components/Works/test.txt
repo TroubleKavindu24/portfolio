@@ -1,0 +1,20 @@
+<div className='workBar' style={styles.workBar}>
+          <div className='workBarText'>
+            <h2 style={styles.workBarHeading}>
+              Whole sale management system for ARROW COMPUTERS pvt
+            </h2>
+            <p style={styles.workBarText}>
+              The web application is to developed by computer shop for their daily sales updates. That application includes admin panels and shopping items diversities. 
+            </p><br/>
+            <div>
+              <h6 style={styles.workBarHeading2}>
+                Languages I used
+              </h6>
+            </div>
+            <img src="https://miro.medium.com/v2/resize:fit:960/1*h7GMfvHKvLPkynG9NvULJw.gif" alt="react" className='workBarImg' style={styles.workBarImg} />
+            <img src="https://cdn-dpdal.nitrocdn.com/GyhcCIiZNdTIbeWlnyLmouvoGPRcWSwV/assets/images/optimized/rev-7e2888a/www.emizentech.com/blog/wp-content/uploads/sites/2/2022/06/expressjs.jpg" alt="express" className='workBarImg' style={styles.workBarImg} />
+            <img src="https://user-images.githubusercontent.com/74038190/212257460-738ff738-247f-4445-a718-cdd0ca76e2db.gif" alt="nodejs" className='workBarImg' style={styles.workBarImg} />
+            <img src="https://airony.ai/wp-content/uploads/2022/11/InsistentSardonicAppaloosa-max-1mb.gif" alt="sql" className='workBarImg' style={styles.workBarImg} />
+          </div>          
+          <img src='https://i.gifer.com/embedded/download/Yedc.gif' alt='Programming' className='projBarImg' style={styles.projBarImg} />
+        </div>
