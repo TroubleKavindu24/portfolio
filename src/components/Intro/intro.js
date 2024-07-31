@@ -25,7 +25,7 @@ const Intro = ({ isDarkMode }) => {
           <button className='btn'>
             <img src='https://media.lordicon.com/icons/wired/outline/982-cv-curriculum-vitae-resume.gif' alt="Resume" className='btnImg' />
             <div>
-              <img src='https://media4.giphy.com/media/MUKq4YyGZpMliFpvYa/giphy.gif?cid=6c09b952se5imib73h20ryp7n1e19zlfy6ph8lj3prn1yli8&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=s'  className='btnImg'/>
+              <img src='https://media4.giphy.com/media/MUKq4YyGZpMliFpvYa/giphy.gif?cid=6c09b952se5imib73h20ryp7n1e19zlfy6ph8lj3prn1yli8&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=s' alt='intro' className='btnImg'/>
             </div>
           </button>
         </a>

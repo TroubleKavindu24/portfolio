@@ -66,7 +66,7 @@ const Skills = () => {
       </span>
       <div className='skillBars' style={styles.skillBars}>
         <div className='skillBar' style={styles.skillBar}>
-          <img src='https://cdn.dribbble.com/users/1299339/screenshots/16791438/shot.gif' className='skillBarImg' style={styles.skillBarImg} />
+          <img src='https://cdn.dribbble.com/users/1299339/screenshots/16791438/shot.gif' className='skillBarImg' alt="skillBar" style={styles.skillBarImg} />
           <div className='skillBarText'>
             <h2 style={styles.skillBarHeading}>UI/UX Design</h2>
             <p style={styles.skillBarText}>I design user interfaces using Figma and Adobe XD.</p>
